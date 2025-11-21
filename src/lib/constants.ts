@@ -1,10 +1,8 @@
 export const LINKS = {
-  github: "https://github.com/Ladvace",
-  linkedin: "https://www.linkedin.com/in/gianmarco-cavallo/",
-  medium: "https://ladvace.medium.com/",
-  discord: "https://discordapp.com/users/163300027618295808",
-  dribble: "https://dribbble.com/Ladvace_Jace",
-  email: "contact@gianmarcocavallo.com<",
+  github: "https://github.com/Estelle04",
+  linkedin: "https://www.linkedin.com/in/siyao-z-724069253",
+  instagram: "https://www.instagram.com/estezzhu?igsh=MWp4cjA2bXhmaXVlcQ%3D%3D&utm_source=qr",
+  email: "estellezhu0527@gmail.com<",
 };
 
 export const loaderAnimation = [
