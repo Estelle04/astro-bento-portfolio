@@ -24,7 +24,50 @@ A modern, animated portfolio website built with **Astro**, inspired by and adapt
 ---
 
 ## 📁 Project Structure
+## 📁 Project Structure
 
+```plaintext
+/
+├── public/                     # Static assets (favicon, images, fonts)
+│   ├── favicon.ico
+│   ├── Estelle.jpg
+│   └── globe_preview.webp
+│
+├── src/
+│   ├── components/             # UI components
+│   │   ├── Card/
+│   │   ├── IntroCard.astro
+│   │   ├── ExperienceCard.astro
+│   │   ├── ProjectsCard.astro
+│   │   ├── TimeZoneCard.astro
+│   │   ├── Now.astro
+│   │   ├── AboutMe.astro
+│   │   ├── ContactsCard.astro
+│   │   └── Globe/
+│   │
+│   ├── layouts/                # Page layouts
+│   │   ├── Layout.astro
+│   │   └── BasicLayout.astro
+│   │
+│   ├── pages/                  # Website pages / routes
+│   │   ├── index.astro
+│   │   ├── experience.astro
+│   │   ├── projects.astro
+│   │   ├── travel.astro
+│   │   └── blog/
+│   │       ├── index.astro
+│   │       └── [id].astro
+│   │
+│   ├── lib/                    # Helper functions
+│   │   ├── helpers.ts
+│   │   └── constants.ts
+│   │
+│   └── data/                   # Static or JSON-like data sources
+│
+├── astro.config.mjs            # Astro configuration
+├── package.json
+├── tsconfig.json
+└── README.md
 ---
 
 ## 🧑‍💻 Local Development
